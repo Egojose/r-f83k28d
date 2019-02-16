@@ -20,10 +20,9 @@ class App extends Component {
   }
 
   counter(){
-    let contar = this.state.count;
-    let nuevaCuenta = contar + 1;
+   
     this.setState({
-      count: nuevaCuenta
+      count: this.state.count + 1
     });
   }
 }
